@@ -3,27 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>comment protocol</string>
+	<string>@property (nonatomic, readonly)</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/**
- @protocol  &lt;#protocol#&gt;
- @abstract  &lt;#abstract comment#&gt;
- */</string>
+	<string>@property (nonatomic, readonly) &lt;#Type and iVar#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5D24103C-2EB5-492B-AAE3-B03A6727110D</string>
+	<string>CF1C1A9A-2374-487A-9AC9-06C06E512518</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>comment protocol</string>
+	<string>property readonly</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>comment protocol</string>
+	<string>property readonly</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

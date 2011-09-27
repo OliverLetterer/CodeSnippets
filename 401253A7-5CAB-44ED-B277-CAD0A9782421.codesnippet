@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>delegate property</string>
+	<string>@property (nonatomic, unsafe_unretained)</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, unsafe_unretained) id&lt;&lt;#protocol#&gt;&gt; delegate;</string>
+	<string>@property (nonatomic, unsafe_unretained) &lt;#Type and ivar#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>401253A7-5CAB-44ED-B277-CAD0A9782421</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>unsafe_unretained delegate property</string>
+	<string>property unsafe_unretained</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>delegate property</string>
+	<string>property unsafe_unretained</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
