@@ -3,29 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>init standard</string>
+	<string>NSAssertClass</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (id)init {
-    if (self = [super init]) {
-        &lt;#statements#&gt;
-    }
-    return self;
-}</string>
+	<string>NSAssert([&lt;#object#&gt; isKindOfClass:[&lt;#Class#&gt; class]], @"%@ is expected to be a kind of &lt;#Class#&gt;", &lt;#object#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>FCAC6318-4EE7-4318-A499-E1B4218F7391</string>
+	<string>C56C7FE6-10BC-4468-90FF-2292720DA647</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>basic initialization</string>
+	<string>NSAssert for expecting class type</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>init</string>
+	<string>NSAssert isKindOfClass</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
