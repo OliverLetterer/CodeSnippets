@@ -9,12 +9,11 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:NSLocalizedString(@"&lt;#title#&gt;", @"") 
+	<string>UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"&lt;#title#&gt;", @"") 
                                                  message:NSLocalizedString(@"&lt;#message#&gt;", @"") 
                                                 delegate:&lt;#delegate#&gt; 
                                        cancelButtonTitle:NSLocalizedString(@"&lt;#cancel#&gt;", @"") 
-                                       otherButtonTitles:NSLocalizedString(@"&lt;#button#&gt;", @""), nil]
-                      autorelease];
+                                       otherButtonTitles:NSLocalizedString(@"&lt;#button#&gt;", @""), nil];
 [alert show];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>95352661-F791-428E-B8CB-7160A30D42A7</string>
