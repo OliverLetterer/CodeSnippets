@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>switch - UIGestureRecognizer</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>switch (recognizer.state) {
+    case UIGestureRecognizerStateBegan: {
+        &lt;#statements#&gt;
+        break;
+    } 
+    case UIGestureRecognizerStateChanged: {
+        &lt;#statements#&gt;
+        break;
+    }
+    case UIGestureRecognizerStateCancelled: {
+        &lt;#statements#&gt;
+        break;
+    }
+    case UIGestureRecognizerStateEnded: {
+        &lt;#statements#&gt;
+        break;
+    }
+    case UIGestureRecognizerStateRecognized: {
+        &lt;#statements#&gt;
+        break;
+    }
+    default:
+        break;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2AE4E6C6-ECC0-43B6-825B-B97575825765</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>switch with UIGestureRecognizer states</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIGestureRecognizer switch states</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
