@@ -3,21 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@property (nonatomic, copy)</string>
+	<string>isEqual:</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, copy) &lt;#Type and iVar#&gt;</string>
+	<string>- (BOOL)isEqual:(id)object
+{
+    if ([object isKindOfClass:self.class]) {
+        return &lt;#statements#&gt;;
+    } else {
+        return [super isEqual:object];
+    }
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2F7BF338-E604-45DE-B911-8CC7065721AA</string>
+	<string>27DB81F5-331A-4AE0-872B-C0F812D9F0D2</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>property copy</string>
+	<string>isEqual: implementation</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>property copy</string>
+	<string>NSObject isEqual:</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

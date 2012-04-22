@@ -3,21 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@property (nonatomic, copy)</string>
+	<string>setter nonatomic CFType</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, copy) &lt;#Type and iVar#&gt;</string>
+	<string>if (&lt;#variable#&gt; != _&lt;#variable#&gt;) {
+    if (_&lt;#variable#&gt; != NULL) {
+        CFRelease(_&lt;#variable#&gt;), _&lt;#variable#&gt; = NULL;
+    }
+    
+    if (&lt;#variable#&gt;) {
+        _&lt;#variable#&gt; = CFRetain(&lt;#variable#&gt;);
+    }
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2F7BF338-E604-45DE-B911-8CC7065721AA</string>
+	<string>2F5506D8-CB90-4AF3-9BCE-D50AC605C2D7</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>property copy</string>
+	<string>nonatomic setter for CTType</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>property copy</string>
+	<string>CFType setter</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
