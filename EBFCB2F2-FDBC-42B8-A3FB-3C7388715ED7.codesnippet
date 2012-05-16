@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>layer shadow setup</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>self.layer.shadowColor = [UIColor blackColor].CGColor;
+self.layer.shadowOffset = CGSizeMake(1.0f, 1.0f);
+self.layer.shadowOpacity = 0.75f;
+self.layer.shadowPath = [UIBezierPath bezierPathWithRoundedRect:self.bounds cornerRadius:5.0f].CGPath;
+self.layer.shadowRadius = 8.0f;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>EBFCB2F2-FDBC-42B8-A3FB-3C7388715ED7</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>fast shadow setup of layer</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>layer shadow properties</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
