@@ -9,7 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@synthesize &lt;#property#&gt;=_&lt;#propertyIvar#&gt;;</string>
+	<string>@synthesize &lt;#property#&gt; = _&lt;#propertyIvar#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>072BDE17-3C77-437F-AFAB-A63F9069A853</string>
 	<key>IDECodeSnippetLanguage</key>
